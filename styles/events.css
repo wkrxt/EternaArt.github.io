@@ -1,0 +1,49 @@
+.events {
+    background-color:#7e7e7e;
+    text-align: center;
+    padding: 80px 20px 100px;
+    color:#ffffff;
+}
+
+.events-title {
+    font-size: 34px;
+    font-weight: 700;
+}
+
+.events-picture {
+    margin: 75px 0 40px;
+    width: min(100%, 600px);
+    height: min(100%, 400px);
+    object-fit: contain;
+}
+
+.events-description {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+
+.events-subtitle-ru,
+.events-subtitle-en {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 auto 15px;
+    max-width: 780px;
+}
+
+.events-description-ru,
+.events-description-en {
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 auto 15px;
+    text-align: justify;
+    max-width: 780px;
+}
+@media (max-width: 480px) {
+    .events-picture {
+        margin: 50px 0 30px;
+    }
+    .events-description {
+        font-size: 14px;
+    }
+}
